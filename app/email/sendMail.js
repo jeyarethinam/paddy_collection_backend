@@ -23,8 +23,8 @@ exports.sendMail = function (email, subject, data, template, cb) {
         port: 465,
         secure: true,
         auth: {
-            user: 'leavemanage2020@gmail.com',
-            pass: 'leave@system@20'
+            user: '*******',//email 
+            pass: '*******'//password 
         }
     });
     let cp_email = data.cp_email;
